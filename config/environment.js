@@ -26,6 +26,8 @@ module.exports = function (environment) {
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
+    ENV.MAPBOX_ACCESS_TOKEN =
+      'pk.eyJ1IjoiZ3JjaG1hdCIsImEiOiJjbHlpZXA4YWEwZmJuMmlwejRrdmYzeDZhIn0.6PGiW96oZjqg0FjsFsx90g';
   }
 
   if (environment === 'test') {
